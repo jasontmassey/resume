@@ -1,0 +1,170 @@
+%------------------------------------------------------------------------------
+% Global Settings
+%------------------------------------------------------------------------------
+\parindent = 0pt
+\newdimen\jobsparskip
+\jobsparskip = 5ex
+\font\namebx = cmbx10 scaled \magstep2
+
+%------------------------------------------------------------------------------
+% Macros
+%------------------------------------------------------------------------------
+\def\fullname#1{\centerline{{\namebx#1}}\bigskip}
+\def\title#1{\centerline{#1}}
+\def\email#1{\centerline{\tt#1}}
+\def\telephone#1{\centerline{\tt#1}}
+\def\heading#1{\vskip.25in{\centerline{\bf#1}}\smallskip\hrule\bigskip}
+\def\degree#1{#1}
+\def\school#1{{\it#1}}
+\def\graduation#1{#1}
+\def\cert#1{\degree{#1}}
+\def\certauthority#1{\school{#1}}
+\def\certversion#1{\graduation{#1}}
+\def\jobtitle#1{{\bf #1\break}}
+\def\jobcompany#1{{\it #1\break}}
+\def\jobdates#1{#1}
+
+%------------------------------------------------------------------------------
+% Resume Content
+%------------------------------------------------------------------------------
+\fullname{Jason T.\ Massey}
+\title{DevOps Cloud Software Engineer}
+\email{jason@jasontmassey.com}
+
+%------------------------------------------------------------------------------
+\heading{Summary}
+%------------------------------------------------------------------------------
+Having a Bachelor of Science degree and extensive experience with Computer
+Science, I am a zealous pursuer of high-performing, results-oriented
+technology.  Having a Master of Business Administration (MBA) degree with a
+concentration in high-performance teams, I am committed to personal,
+inter-personal, and organizational effectiveness---how to get highly-talented
+people working together to achieve worthy ends.
+
+
+%------------------------------------------------------------------------------
+\heading{Work Experience}
+%------------------------------------------------------------------------------
+\hbox{%
+\vtop{\hsize = 3in\parskip=\jobsparskip\raggedright%
+\jobtitle{Linux Cloud-Infrastructure Build Engineer}
+\jobcompany{Salesforce}
+\jobdates{April 2018 -- Present}
+
+\jobtitle{Linux Cloud-Infrastructure Engineer}
+\jobcompany{Salesforce}
+\jobdates{April 2017 -- April 2018}
+
+\jobtitle{Big Data / Oracle Exadata Engineer}
+\jobcompany{Salesforce}
+\jobdates{March 2016 -- April 2017}
+
+\jobtitle{Cloud / DevOps / Oracle Database\break Engineer}
+\jobcompany{Independent Consultant}
+\jobdates{June 2015 -- March 2016}
+
+\jobtitle{Senior Cloud / DevOps / Amazon Web Services Engineer}
+\jobcompany{hc1.com}
+\jobdates{January 2014 -- June 2015}
+
+\jobtitle{Enterprise Oracle Database Administrator,\break IBM AIX/Linux System Administrator}
+\jobcompany{Franciscan Alliance, Inc.}
+\jobdates{April 2004 -- January 2014}
+}% -- END OF FIRST COLUMN
+%
+\hskip .5in
+%\vtop{\hsize = .5in\hfil\vrule depth 5in\hfil}
+%
+\vtop{\hsize = 3in\parskip=\jobsparskip\raggedright%
+\jobtitle{Global Data Oracle Database\break Administrator}
+\jobcompany{Eli Lilly}
+\jobdates{February 2001 -- April 2003}
+
+\jobtitle{Organ Transplant Center\break Oracle Database Administrator}
+\jobcompany{Clarian Health}
+\jobdates{January 2000 -- February 2001}
+
+\jobtitle{Information Technology Consultant}
+\jobcompany{Whittman-Hart}
+\jobdates{October 1996 -- December 1999}
+
+\jobtitle{Software Engineer}
+\jobcompany{Software Artistry}
+\jobdates{January 1996 -- October 1996}
+
+\jobtitle{Computer-Programming Languages\break Instructor (Adjunct Faculty)}
+\jobcompany{Indiana University}
+\jobdates{April 1993 -- July 1999}
+
+\jobtitle{Computer Consultant}
+\jobcompany{Indiana University School of Liberal Arts}
+\jobdates{1990 -- 1994}
+}%--END OF SECOND COLUMN
+}
+
+\vfil\eject
+%------------------------------------------------------------------------------
+\heading{Education}
+%------------------------------------------------------------------------------
+{\hfil\vbox{%
+\tabskip=3pc
+\halign{\hfil#\hfil&\hfil#\hfil\cr
+\degree{Bachelor of Science (Computer Science)}&\degree{Master of Business Administration (MBA)}\cr
+\school{Purdue University}&\school{Butler University}\cr
+\graduation{December 1995}&\graduation{December 2012}\cr}}\hfil}
+
+%------------------------------------------------------------------------------
+\heading{Certifications}
+%------------------------------------------------------------------------------
+{\hfil\vbox{%
+\tabskip=3pc
+\halign{\hfil#\hfil&\hfil#\hfil\cr
+\cert{Red Hat Certified Engineer (RHCE)}&\cert{Oracle Certified Professional (OCP) DBA}\cr
+\certauthority{Red Hat Corporation}&\certauthority{Oracle Corporation}\cr
+\certversion{IN PROGRESS}&\certversion{Oracle 8i}\cr}}\hfil}
+
+
+%------------------------------------------------------------------------------
+\heading{Hard Skills}
+%------------------------------------------------------------------------------
+\hbox{%
+\vtop{\hsize = 3in\parskip=2ex%
+{\bf Computer Science:} algorithms, data structures, space/time performance analysis,
+information and coding theory, computer architecture, networks.
+
+{\bf Project Management:} initiating, planning, executing, monitoring-and-controlling, closing.
+
+{\bf System Administration:} Linux, FreeBSD, and\break\hfil and other UNIX operating systems.%
+}% -- END OF FIRST COLUMN
+%
+\hskip .5in
+%
+\vtop{\hsize = 3in\parskip=2ex%
+{\bf Programming:} Ruby, Python, Perl, UNIX Shell-scripting, C and C++, Lisp, assembly languages.
+
+{\bf Configuration Management:} Git version control, Chef, and Ansible.
+
+{\bf Technical Writing:} Sphinx, \TeX, La\TeX, Texinfo, DocBook, AsciiDoc, UNIX man pages, and Adobe FrameMaker.%
+}%--END OF SECOND COLUMN
+}
+
+%------------------------------------------------------------------------------
+\heading{Soft Skills}
+%------------------------------------------------------------------------------
+{
+{\bf Personal:} initiative, commitment, competence, discernment, passion, positive attitude, life-management with Covey's
+``7 Habits of Highly Effective People'', task-management with ``Getting Things Done'' (GTD) methodology, balanced
+temperament through regular meditation and exercise.
+\parskip =  2ex
+
+{\bf Inter-Personal:} emotional intelligence, thoughtful written and verbal communication, conflict resolution, trust- and
+team-building, relationship-oriented.
+
+{\bf Organizational:} future-oriented, course planning and navigation, team-centric, self-sacrificing.}
+
+\vfil\eject
+
+%------------------------------------------------------------------------------
+% END OF DOCUMENT
+%------------------------------------------------------------------------------
+\end
